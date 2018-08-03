@@ -2,18 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:id="@+id/navigation_chooseSign"
+        android:enabled="true"
+        android:icon="@drawable/ic_sign"
+        android:title="@string/navbar_chooseSign"
+
+        />
 
     <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:id="@+id/navigation_FindSign"
+        android:icon="@drawable/ic_search"
+        android:title="@string/navbar_findSign"
+        />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_Celeb"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+        android:title="@string/navbar_celeb"
+        />
 
 </menu>
