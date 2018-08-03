@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Horoscope APP</string>
+    <string name="app_name">Zodiac</string>
 
     <string name="title_findSign">FIND YOUR ZODIAC SIGN</string>
     <string name="title_chooseSign">CHOOSE YOUR ZODIAC SIGN</string>
