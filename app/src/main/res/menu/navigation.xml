@@ -6,18 +6,15 @@
         android:enabled="true"
         android:icon="@drawable/ic_sign"
         android:title="@string/navbar_chooseSign"
-
         />
-
     <item
         android:id="@+id/navigation_FindSign"
         android:icon="@drawable/ic_search"
         android:title="@string/navbar_findSign"
         />
-
     <item
         android:id="@+id/navigation_Celeb"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_celb"
         android:title="@string/navbar_celeb"
         />
 

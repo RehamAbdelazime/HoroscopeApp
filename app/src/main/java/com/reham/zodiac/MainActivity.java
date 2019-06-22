@@ -1,4 +1,4 @@
-package com.general_pc.zodiac;
+package com.reham.zodiac;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -6,6 +6,10 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import com.reham.zodiac.Fragments.Celebrities;
+import com.reham.zodiac.Fragments.ChooseSign;
+import com.reham.zodiac.Fragments.FindSign;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_chooseSign:
                     selectedFragment = new ChooseSign();
+
                     break;
                 case R.id.navigation_FindSign:
                     selectedFragment = new FindSign();
@@ -38,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ChooseSign()).commit();
 
     }
